@@ -1,0 +1,28 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$font-primary: 'Raleway', sans-serif;
+
+h1,
+p {
+  font-family: $font-primary;
+}
+
+.your-question {
+  border-left: 5px solid lightgrey;
+  padding: 20px;
+  margin: 10px;
+}
+
+.coach-answer {
+  background-color: beige;
+  padding: 20px;
+  border-left: 5px solid lightgrey;
+  margin: 10px;
+}
+
+.link p {
+  text-decoration: none;
+  font-family: $font-primary;
+  color: hotpink;
+}
